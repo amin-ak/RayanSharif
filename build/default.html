@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link href="assets/css/bootstrap.css" rel="stylesheet">
+      <link href="assets/css/bootstrap.css" rel="stylesheet">
+      <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+      <link href="assets/css/style.css" rel="stylesheet">
+      <link href="assets/css/explain.css" rel="stylesheet">
+      <link href="assets/css/sweetalert.css" rel="stylesheet">
+      <script src="assets/js/jquery-2.0.1.js"></script>
+      <script src="assets/js/sweetalert.min.js"></script>
+      <script src="assets/js/custom.js"></script>
+
+    </head>
+    <body>
+
+
+<!-- START : NAVBAR -->
+  <!--#region NAVBAR-->
+        <div class="container-full navbar_content" >
+         <div class="row">
+
+              <div class="col-xs-3 col-sm-1 col-md-1 col-lg-1" >
+                <h3 id="login" style="font-family: iranSansFont">
+                  <a onclick="login()">
+                  ورود
+                  </a>
+                </h3>
+              </div>
+              <div class="col-xs-9 col-sm-11 col-md-11 col-lg-11">
+                <h1 id="title">رایان شریف
+                  <p id="desc" class=" hidden-xs">ساری - فرهنگ - پاساژ شهر - طبقه ی پنجم- واحد 506</p>
+                </h1>
+            </div>
+          </div>
+        </div>
+  <!--#endregion NAVBAR-->
+<!-- END   : NAVBAR -->
+
+
+<!--__________________________________________________________________________________________-->
+
+<!-- START : HEADER -->
+<!--#region HEADER -->
+  <div  id="header" style="width: 100%; background-color: #f3efef;">
+        <div class="container header" onclick="C_alert()">
+            <div class="row">
+  <!-- LEFT COLUMN OF METRO HEADER       -->
+  <!-- ===================================================== -->
+              <div id="leftColumn" class="col-sm-9 col-md-9 col-lg-9">
+        <!-- TOP ROW OF METRO HEADER       -->
+        <!-- ===================================================== -->
+                <div class="row text-center">
+                  <div class="col-xs-5 col-sm-5 col-md-5 col-lg-5 " >
+                    <div class="row">
+                      <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 tiles"  style=" background: #8781bd;  " >
+                        <p>تخفیف</p>
+                      </div>
+                      <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 tiles" style=" background: #448ccb;" >
+                        <p>تصاویر</p>
+                      </div>
+                    </div>
+                     <div class="row">
+                      <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 tiles" style="background: #39b54a;" >
+                        <!-- green tile  -->
+                        <p>
+                        ارتباط
+                        </p>
+                      </div>
+                      <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 tiles" style="background: #f68e56; "  >
+                        <p>ورکشاپ</p>
+                      </div>
+                    </div>
+                  </div>
+                   <div class="col-xs-7 col-sm-7 col-md-7 col-lg-7 tiles" style="border: 2px solid #f3efef;background:#26A69A; height:220px" >
+                  <img src="./assets/img/Web-design.png " alt="img" style='position:absolute; left:5px; bottom:5px; ' >
+                  <p>
+                      آموزش
+                  </p>
+                  </div>
+                </div>
+ <!--       BOTTOM ROW OF METRO HEADER       -->
+  <!-- ===================================================== -->
+                <div class="row text-center" >
+                  <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 tiles"style="border: 2px solid #f3efef;background: #c62828; height:130px" >
+                    <p style="z-index:999; position:relative;" >
+                    آموزش کودکان
+                    </p>
+                      <!-- red -->
+                      <img src="./assets/img/baby.png" alt="img" style=" height: 100px; position: absolute; left: 5px; bottom:5px; "/>
+                  </div>
+                  <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 tiles" style="border: 2px solid #f3efef;background: #558B2F; height:130px" >
+                      <img src="./assets/img/test.png" alt="img" style=" height: 100px; position: absolute; left: 0px; bottom:2px; "/>
+                      <p style="position:relative;">آزمون</p>
+                  </div>
+                   <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 tiles"  style="border: 2px solid #f3efef;background: #cf8764; height:130px;" >
+                    <div  class="tile medium-tile"  >
+                      <p>امین</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+  <!-- RIGHT COLUMN OF METRO HEADER       -->
+  <!-- ===================================================== -->
+              <div id="rightColumn" class="col-sm-3 col-md-3 col-lg-3 tiles" style="border: 2px solid #f3efef;background:#303F9F; height:350px;" >
+                  <img src="./assets/img/teachThumb.png" alt="img" style="height: 113px; height: 180px; position: absolute; left: 0px; bottom:0px; "/>
+                  <p>اخبار</p>
+              </div>
+            </div>
+          </div>
+
+      </div>
+<!--#endregion HEADER -->
+
+<!--__________________________________________________________________________________________-->
+
+
+<!--#region EXPLAIN -->
+  <!-- ===================================================== -->
+        <div id="explain" class="container-full explain text-center" >
+
+
+          <div class="container">
+
+            <div class="row">
+              <h1>چرا رایان شریف ؟ </h1>
+            </div>
+
+
+
+          <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+
+          <img src="./assets/img/leftcircle.png" class="img-responsive img-circle" alt="Image" />
+          <h3>تعهد</h3>
+          <p>آموزشگاه نمونه کشوری</p>
+          </div>
+
+          <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+               <img src="./assets/img/centercircle.png" class="img-responsive img-circle" alt="Image">
+          <h3>انگیزه</h3>
+          <p>استفاده از نیروهای متخصص جوان</p>
+          </div>
+
+
+          <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+             <img src="./assets/img/rightcircle.png" class="img-responsive img-circle" alt="Image">
+          <h3>تجربه</h3>
+          <p>با 17 سال تجربه درخشان</p>
+          </div>
+          </div>
+
+
+  </div>
+<!--#endregion EXPLAIN-->
+
+
+
+<!-- START :  multipeColor Line ====================================================================================================-->
+<div class="line" role="important" /></div>
+<!-- END   :  multipeColor Line ====================================================================================================-->
+
+<!-- START : explain_sec2-->
+<!-- ===================================================== -->
+<div class="container-full explain_sec2 text-center" >
+
+
+    <div class="container">
+          <div class="col-md-4 col-lg-4">
+
+
+          </div>
+
+          <div class="col-md-3 col-lg-3">
+          </div>
+
+
+          <div class="col-md-5 col-lg-5">
+             <img src="./assets/img/explain.png" class="img-responsive" alt="Image">
+          </div>
+    </div>
+</div>
+<!-- END   : explain_sec2-->
+
+
+
+<!-- START : footer  -->
+<div id="footer" class="container-full text-center" style="background:#3a3a3a; min-height: 50px; color: white; font-family: iransansfont;
+padding:15px;
+">
+
+<div class="row">
+  <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
+    <a style="color:white;">
+    <!-- طراحی و پیاده سازی : مهندس امین اکملی -->
+    </a>
+  </div>
+  <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
+    <a style="color:white;">
+    </a>
+  </div>
+  <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
+    <a style="color:white;">
+    </a>
+  </div>
+  <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 ">
+    <a style="color:white;">
+    طراحی و پیاده سازی : مهندس امین اکملی
+    </a>
+  </div>
+</div>
+
+
+</div>
+
+    </body>
+</html>

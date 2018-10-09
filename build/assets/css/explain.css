@@ -1,0 +1,55 @@
+.explain {
+  width: 100%;
+  min-height: 350px;
+  background-color: #fff;
+  font-family: iranSansFont;
+  padding-top: 20px;
+  padding-bottom: 70px;
+}
+.explain img {
+  margin: 0px auto;
+  height: 100%;
+  width: 150px;
+}
+@media screen and (max-width: 400px)
+{
+  .explain img {
+  margin: 1px auto;
+  height: 50%;
+  width: 100%;
+}
+}
+.explain .row h1 {
+  font-family: MjSayeh2;
+  color: #aa4548;
+  padding-bottom: 30px;
+}
+.explain h3 {
+  margin-top: 22px;
+  color: #6c0c0c;
+  font-family: iranSansFont;
+}
+.explain p {
+  margin-top: 16px;
+  color: #6c0c0c;
+}
+.explain_sec2 {
+  width: 100%;
+  min-height: 350px;
+  background-color: #fff;
+  font-family: iranSansFont;
+  padding-top: 20px;
+  padding-bottom: 70px;
+  background-color: #f3efef;
+}
+@media screen and (max-width: 400px)
+{
+  .explain_sec2 {
+  width: 100%;
+  min-height: 30px;
+  font-family: iranSansFont;
+  padding-top: 1px;
+  padding-bottom: 0px;
+  background-color: #f3efef;
+}
+}

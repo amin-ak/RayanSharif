@@ -1,0 +1,102 @@
+@font-face {
+    font-family: MjSayeh2;
+    src: url('../font/MjSayeh2.ttf');
+}
+@font-face {
+    font-family: iranSansFont;
+    src: url('../font/irsans.ttf');
+}
+
+// variable 
+body
+  cursor: default
+  direction: rtl
+  
+.navbar_content
+  padding-right: 60px
+  width: 100%;
+  height: 100px;
+  background-color:white;
+  border-bottom: 1px solid #d3d1d1
+  h1
+    line-height: 80px
+    color:#474747
+    font-family: MjSayeh2
+    font-size: 50px
+    float: right
+    p
+      position relative
+      float: left
+      font-size: 25px
+      margin-right: 10px
+      top 22px
+  
+  
+
+
+.header
+  width: 100%;
+  min-height: 350px;
+  background-color: #f3efef ;
+  
+  padding:7px 14px;
+
+  .row
+    direction rtl
+    
+    .col
+      padding 2px
+      // MetroTile Css
+      .tile
+       
+        transition 0.2s all ease
+        border:2px solid transparent 
+       
+      .tile:hover
+        
+        border:2px solid rgba(0,0,0,0.4) 
+        cursor: pointer
+      .tile:active
+        //transition 0.0s all
+        border:2px solid black
+      .tile.xlarge-tile
+        padding: 0px;
+        height: 310px
+        width 100%
+        background-color: #0072bc;
+      .tile.large-tile
+        width: 100%;
+        height: 169px
+        float: right   
+        margin:2px 0px 2px 0px;
+        background-color: #34aecf;
+      .tile.small-wide-tile
+        width: 97%
+        height: 81.5px
+        float: right   
+        margin: 3.5px 1.5px 0px 1.5px
+        
+      .wide-tile
+        width: 100%;
+        height: 137px; 
+      .medium-tile
+        width: 100%;
+        height: 137px; 
+  .metroTiles
+    padding: 1px
+    div
+   
+    
+
+.container-full 
+  margin: 0 auto
+  width: 100%
+  .row
+    margin: 0 auto
+    width: 100%
+
+.line
+    height: 3px
+    background: -moz-linear-gradient(90deg, #3b8376 20%, #ee5b71 20%, #ee5b71 40%, #F09741 40%, #F09741 60%, #327AB2 60%, #327AB2 80%);
+    background: -webkit-linear-gradient(90deg, #3b8376 20%, #ee5b71 20%, #ee5b71 40%, #F09741 40%, #F09741 60%, #327AB2 60%, #327AB2 80%);
+    background: linear-gradient(90deg, #3b8376 20%, #ee5b71 20%, #ee5b71 40%, #F09741 40%, #F09741 60%, #327AB2 60%, #327AB2 80%, #3A94F6 80%);

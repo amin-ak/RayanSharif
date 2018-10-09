@@ -1,0 +1,19 @@
+{
+  "name": "rayansharif",
+  "version": "1.0.0",
+  "description": "this webapp create by amin akmali ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+    
+  },
+  "author": "amin akmali eng.",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  },
+  "scripts": {
+    "gulp": "gulp test",
+	"pug": "gulp pug"
+  }
+}
